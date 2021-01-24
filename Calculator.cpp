@@ -13,17 +13,24 @@ int main()
     do
     {
         cout << "\nWhich operations would you like to perform from the following" << endl;
+
         cout << "Enter 1 to perfrom a+b" << endl;
         cout << "Enter 2 to perfrom a-b" << endl;
         cout << "Enter 3 to perfrom a/b" << endl;
         cout << "Enter 4 to perfrom a*b" << endl;
+
         cout << "Enter 5 to perfrom a mod b" << endl;
+
         cout << "Enter 6 to perfrom a raised to power b" << endl;
+
         cout << "Enter 7 to perfrom square root of a" << endl;
         cout << "Enter 8 to perfrom sin of a" << endl;
         cout << "Enter 9 to perfrom cos of a" << endl;
         cout << "Enter 10 to perfrom tan of a" << endl;
+
         cin >> operation;
+
+
         switch (operation)
         {
         case 1:
