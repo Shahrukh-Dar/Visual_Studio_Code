@@ -8,8 +8,11 @@ int main()
     char choice;
     cout << "Enter first number:";
     cin >> a;
+
     cout << "\nEnter second number:";
+
     cin >> b;
+
     do
     {
         cout << "\nWhich operations would you like to perform from the following" << endl;
@@ -67,6 +70,7 @@ int main()
         default:
             cout << "Invalid input";
         }
+
     
         cout << "\nPress y if you want to use calculator again else press any other character:";
         cin >> choice;
